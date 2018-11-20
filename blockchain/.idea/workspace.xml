@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7b80a77-dd2a-4e55-8e1c-24a08bb1ab4e" name="Default Changelist" comment="" />
+    <list default="true" id="b7b80a77-dd2a-4e55-8e1c-24a08bb1ab4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c06-bc-print/BLC/Block.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c06-bc-print/BLC/BlockChain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c06-bc-print/BLC/ProofOfWork.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c06-bc-print/BLC/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c06-bc-print/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c06-bc-print/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c07-bc-it/BLC/Block.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c07-bc-it/BLC/BlockChain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c07-bc-it/BLC/BlockChainIterator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c07-bc-it/BLC/ProofOfWork.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c07-bc-it/BLC/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c07-bc-it/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c07-bc-it/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c08-go-cli/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c08-go-cli/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c09-blc-cli/BLC/Block.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c09-blc-cli/BLC/BlockChain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c09-blc-cli/BLC/BlockChainIterator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c09-blc-cli/BLC/CLI.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c09-blc-cli/BLC/ProofOfWork.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c09-blc-cli/BLC/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c09-blc-cli/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c09-blc-cli/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/BLC/Block.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/BLC/BlockChain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/BLC/BlockChainIterator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/BLC/CLI.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/BLC/ProofOfWork.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/BLC/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/bc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c10-bc-obj/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/BLC/Block.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/BLC/BlockChain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/BLC/BlockChainIterator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/BLC/CLI.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/BLC/ProofOfWork.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/BLC/Transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/BLC/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/bc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/block.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/block.db.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c11-bc-tx/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/Block.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/BlockChain.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/BlockChainIterator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/CLI.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/ProofOfWork.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/Transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/Transaction_Input.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/Transaction_Output.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/BLC/utils.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/bc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/block.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/block.db.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c12-bc-in-out/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,39 +103,43 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1739767638">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="go" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Go" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="go" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Go" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c03-pow/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding>
-                <element signature="e#14#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/c05-bc-db/BLC/BlockChain.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="6" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="e#13#90#0" expanded="true" />
-                <element signature="n#!!block;n#AddBlock#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/c03-pow/BLC/ProofOfWork.go">
+        <entry file="file://$PROJECT_DIR$/c37-utxo-balance/BLC/BlockChain.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+            <state relative-caret-position="-58">
+              <caret line="558" column="13" lean-forward="true" selection-start-line="558" selection-start-column="13" selection-end-line="558" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -88,6 +152,11 @@
         <option value="Go File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FINDU</find>
+    </findStrings>
   </component>
   <component name="GOROOT" path="D:\Go" />
   <component name="Git.Settings">
@@ -115,6 +184,7 @@
         <option value="$PROJECT_DIR$/c03-pow/main.go" />
         <option value="$PROJECT_DIR$/c05-bc-db/BLC/BlockChain.go" />
         <option value="$PROJECT_DIR$/c03-pow/BLC/ProofOfWork.go" />
+        <option value="$PROJECT_DIR$/c37-utxo-balance/BLC/BlockChain.go" />
       </list>
     </option>
   </component>
@@ -143,6 +213,11 @@
             <path>
               <item name="blockchain" type="b2602c69:ProjectViewProjectNode" />
               <item name="blockchain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="blockchain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blockchain" type="462c0819:PsiDirectoryNode" />
+              <item name="c37-utxo-balance" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blockchain" type="b2602c69:ProjectViewProjectNode" />
@@ -249,8 +324,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1365" height="822" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12950191" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13103448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -411,13 +487,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/boltdb/bolt/db.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="149" column="39" selection-start-line="149" selection-start-column="31" selection-end-line="149" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/boltdb/bolt/db.go" />
     <entry file="file://D:/Go/src/encoding/gob/encoder.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -480,6 +550,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/c03-pow/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/c05-bc-db/BLC/BlockChain.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -491,20 +571,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c03-pow/main.go">
+    <entry file="file://$PROJECT_DIR$/c03-pow/BLC/ProofOfWork.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#14#57#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="5">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c03-pow/BLC/ProofOfWork.go">
+    <entry file="file://$PROJECT_DIR$/c37-utxo-balance/main.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c37-utxo-balance/BLC/BlockChain.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+        <state relative-caret-position="-58">
+          <caret line="558" column="13" lean-forward="true" selection-start-line="558" selection-start-column="13" selection-end-line="558" selection-end-column="13" />
         </state>
       </provider>
     </entry>

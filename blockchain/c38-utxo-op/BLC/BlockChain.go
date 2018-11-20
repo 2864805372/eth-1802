@@ -493,6 +493,7 @@ func (bc *BlockChain)VerifyTransaction(tx *Transaction) bool {
 // 查找所有UTXO
 func (blockchain *BlockChain) FindUTXOMap() map[string] *TXOutputs {
 	bcit := blockchain.Iterator()
+	// 已花费输出集合
 	spentUTXOMap := make(map[string][]*TxInput)
 	// 输出集合
 	utxoMaps := make(map[string]*TXOutputs)
@@ -517,23 +518,31 @@ func (blockchain *BlockChain) FindUTXOMap() map[string] *TXOutputs {
 			break
 		}
 	}
-	fmt.Printf("spentUtxo : %v\n", spentUTXOMap)
-	bcit = blockchain.Iterator()
+	// spentUtxoMap:一个input
+	// index:0
+	// txHash : 111111
+
+	bcit1 := blockchain.Iterator()
 	// 查找所有未花费的输出
 	for {
-		block := bcit.Next()
+		block := bcit1.Next()
+		// 保存输出的列表
+		// value = 10
+
 
 		for _, tx := range block.Txs {
-			// 保存输出的列表
 			txOutputs := &TXOutputs{[]*TxOutput{}}
-
 			txHash := hex.EncodeToString(tx.TxHash)
-			WorkOutLoop:
-			for index, out := range tx.Vouts {
-				// 查找指定哈希的关联输入
-				txInputs := spentUTXOMap[txHash]
-				if len(txInputs) > 0{
+			// 得到指定交易的input
+			txInputs := spentUTXOMap[txHash]
+			if len(txInputs) > 0 {
+				WorkOutLoop:
+				for index, out := range tx.Vouts {
+					// 查找指定哈希的关联输入
 					// 判断指定的output是否已经被花费
+					// index = 0
+					// value = 10
+					// deb1adb1a559c52f862bfd06d0a54fbb8a23ff78
 					isSpent := false
 					for _, in := range txInputs {
 						// 查找指定输出的所有者
@@ -549,15 +558,23 @@ func (blockchain *BlockChain) FindUTXOMap() map[string] *TXOutputs {
 					}
 
 					if isSpent == false {
+						fmt.Println("isSpent == false")
 						// 说明该输出没被花费
 						txOutputs.TxOutputs = append(txOutputs.TxOutputs, out)
 					}
-				} else {
-					// 如果没有input引用该交易的输出，那都是UTXO
-					txOutputs.TxOutputs = append(txOutputs.TxOutputs, out)
 				}
+			} else {
+				// 如果没有input引用该交易的输出，那都是UTXO
+				//utxo := UTXO{TxHash:tx.TxHash, Index:index}
+				//txOutputs.UTXOS = append(txOutputs.UTXOS)
+				txOutputs.TxOutputs = append(txOutputs.TxOutputs, tx.Vouts...)
+				// txoutputs : {111111}
 			}
-			// UtxoMap赋值
+			fmt.Println("打印txOutputs...")
+			for _, output := range txOutputs.TxOutputs  {
+				fmt.Printf("\toutput : %x\n", output.Ripemd160Hash)
+				fmt.Printf("\toutput : %v\n", output.Value)
+			}
 			utxoMaps[txHash] = txOutputs
 		}
 
@@ -568,6 +585,5 @@ func (blockchain *BlockChain) FindUTXOMap() map[string] *TXOutputs {
 			break
 		}
 	}
-	fmt.Printf("utxoMaps : %v\n", utxoMaps)
 	return utxoMaps
 }
