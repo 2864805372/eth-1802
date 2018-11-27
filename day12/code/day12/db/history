@@ -1,0 +1,7 @@
+loadScript('/home/eth/eth1802/day12/storage.js')
+var storageContractAbi=storageOutput.contracts['Storage.sol:Storage'].abi
+var storageContract = eth.contract(JSON.parse(storageContractAbi))
+"0x"+storageOutput.contracts['Storage.sol:Storage'].bin
+miner.setEtherbase(eth.accounts[0])
+eth.getBalance(eth.accounts[0])
+storageOutput
